@@ -14,7 +14,7 @@ function Pokemon (props) {
             .then(response => response.json())
             .then(response => setPokemon(response.results))
             .catch(() => setHasError(true));
-            console.log("you are rendering pokemon api")
+            
     }, []);
 
     const clickFetch = () =>{
