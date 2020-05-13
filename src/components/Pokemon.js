@@ -2,7 +2,9 @@ import React, {useState, useEffect} from 'react';
 // import axios from 'axios';
 
 
-const Pokemon = (props) => {
+
+
+function Pokemon (props) {
     const [pokemon, setPokemon] = useState([]);
     const [render, setRender] = useState(0);
     const [hasError, setHasError] = useState(false);
